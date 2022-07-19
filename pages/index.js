@@ -26,6 +26,8 @@ export default function Home({ results }) {
   );
 }
 
+Home.displayName = "Home";
+
 export async function getServerSideProps(context) {
   const genre = context.query.genre;
 

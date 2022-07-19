@@ -21,6 +21,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         height={1080}
         width={1920}
         className="rounded-sm"
+        alt={result.title || result.original_name}
       />
       <div className="pb-4 pt-2 sm:px-2">
         <p className="truncate max-w-md text-[14px]">{result.overview}</p>

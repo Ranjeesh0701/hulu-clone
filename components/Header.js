@@ -24,6 +24,7 @@ const Header = () => {
         src="https://links.papareact.com/ua6"
         width={140}
         height={70}
+        alt="hulu-logo"
       />
     </header>
   );
